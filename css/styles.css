@@ -2,7 +2,7 @@
     --brand-color: #4D5AE5;
     --mian-color: #2E2F42;
     --text-color: #434455;
-    --main-background-color:#FFFFFF;;
+    --main-background-color:#FFFFFF;
     --background-light-color: #F4F4FD;
     --accent-color:#E7E9FC;
 
@@ -59,6 +59,9 @@ color: var(--mian-color);
 }
 .nav-link:hover,
 .nav-link:focus{
+color: var(--text-color);
+}
+.nav-link:active {
 color: var(--brand-color);
 }
 
